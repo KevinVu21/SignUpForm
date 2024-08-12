@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    overflow: auto; /* Ensure scrolling if content overflows */
+}
+
+.left {
+    width: 30%;
+    height: 100vh;
+    border: 2px solid black;
+    overflow: auto;
+    background-size: cover;
+}
+
+.right {
+    width: 70%;
+    height: 100vh;
+    border: 2px solid orange;
+    overflow: auto; 
+
+}
