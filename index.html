@@ -15,10 +15,13 @@
     </div>
     <div class="right">
         <div id="fake">
-            <div>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</div>
-            <div> Sign up <i>now</i> to get started</div>
+            <div class="blurb">
+                <div>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</div>
+                <div> Sign up <i>now</i> to get started</div>
+            </div>
+            
         </div>
-        <form action="URL" method="get" class="signUp">
+        <form action="URL" method="get" class="signUp" id="signUpForm">
             <h2>Let's do this!</h2>
             <div class="form-row">
                 <div class="form-group">
@@ -50,9 +53,10 @@
                     <input type="password" id="confirmPass" name="confirmPass">
                 </div>
             </div>
-            <button>Create Account</button>
         </form>
+        <button type="submit" form="signUpForm">Create Account</button>
+        <div>Already have an account?<a href="URL">Log in</a></div>
     </div>
-
+    <script src="script.js"></script>
 </body>
 </html>
